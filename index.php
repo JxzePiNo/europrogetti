@@ -1,4 +1,4 @@
-<?php
+<?php/*
 // server IMAP per la connessione
 $server = '{imapmail.libero.it:993/ssl/novalidate-cert}Spam';
 // account Gmail
@@ -92,7 +92,7 @@ for($i = 1; $i <= $conteggio; $i++) {
 	imap_delete($connessione, $conteggio);
 	
 imap_close($connessione);
-$conn->close();
+$conn->close(); */
 ?>
 <!-DOCTYPE html>
 <html lang="en" >
